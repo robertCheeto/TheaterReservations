@@ -4,27 +4,53 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad765a50-6f57-4479-bcee-ff9e368f4343" name="Changes" comment="" />
+    <list default="true" id="ad765a50-6f57-4479-bcee-ff9e368f4343" name="Changes" comment="* added statements for user to input information&#10;* added comments for what needs to be completed next">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pluralsight/TheaterReservations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pluralsight/TheaterReservations.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;robertCheeto&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/robertCheeto/TheaterReservations&quot;,
+    &quot;accountId&quot;: &quot;9a28861d-3046-441c-b3b9-71f0fc00ab2f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="33O0IxLpXjA6JY22nOsDpgNiBpN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,6 +60,37 @@
       <option name="presentableId" value="Default" />
       <updated>1759172736672</updated>
     </task>
+    <task id="LOCAL-00001" summary="* first commit, established main() and imported and initialized Scanner">
+      <option name="closed" value="true" />
+      <created>1759172815389</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1759172815389</updated>
+    </task>
+    <task id="LOCAL-00002" summary="* created sout statements asking the user for their name, the date they want to see the movie, and the number of tickets they need">
+      <option name="closed" value="true" />
+      <created>1759172979574</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759172979574</updated>
+    </task>
+    <task id="LOCAL-00003" summary="* added statements for user to input information&#10;* added comments for what needs to be completed next">
+      <option name="closed" value="true" />
+      <created>1759173360047</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759173360047</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="* first commit, established main() and imported and initialized Scanner" />
+    <MESSAGE value="* created sout statements asking the user for their name, the date they want to see the movie, and the number of tickets they need" />
+    <MESSAGE value="* added statements for user to input information&#10;* added comments for what needs to be completed next" />
+    <option name="LAST_COMMIT_MESSAGE" value="* added statements for user to input information&#10;* added comments for what needs to be completed next" />
   </component>
 </project>

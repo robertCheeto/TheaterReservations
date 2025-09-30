@@ -10,9 +10,35 @@ public class TheaterReservations {
         String fullName = keyboard.nextLine().trim();
 
         System.out.println("Please enter the date of the movie in the following format (MM/dd/yyyy): ");
+        String movieDate = keyboard.nextLine().trim();
 
         System.out.println("Please enter the amount of tickets you need: ");
+        int ticketCount = keyboard.nextInt();
+
+        if (ticketCount == 1) {
+            singleTicket();
+        } // end of if
+
+        else if (ticketCount > 1) {
+            multipleTickets();
+        } // end of else-if
+
+        else {
+            System.out.println("No tickets were bought!");
+        }
     } // end of main()
+
+
+    public static void singleTicket() {
+        System.out.println("Single ticket");
+
+    } // end of singleTicket
+
+
+    public static void multipleTickets() {
+        System.out.println("Multiple tickets");
+
+    } // end of multipleTickets
 
     //TO-DO: add statements for user input on date, ticket number, display message to user
     // converting date to the standard version so program can print it out correctly
