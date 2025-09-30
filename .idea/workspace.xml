@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad765a50-6f57-4479-bcee-ff9e368f4343" name="Changes" comment="* added statements for user to input information&#10;* added comments for what needs to be completed next">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pluralsight/TheaterReservations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pluralsight/TheaterReservations.java" afterDir="false" />
-    </list>
+    <list default="true" id="ad765a50-6f57-4479-bcee-ff9e368f4343" name="Changes" comment="* created variables for input data&#10;* created multiple methods if the ticket amount is at 1 or if it is greater than 1&#10;* created if-else statements based on ticket amount the user input" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,13 +81,22 @@
       <option name="project" value="LOCAL" />
       <updated>1759173360047</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="* created variables for input data&#10;* created multiple methods if the ticket amount is at 1 or if it is greater than 1&#10;* created if-else statements based on ticket amount the user input">
+      <option name="closed" value="true" />
+      <created>1759237074976</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759237074976</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="* first commit, established main() and imported and initialized Scanner" />
     <MESSAGE value="* created sout statements asking the user for their name, the date they want to see the movie, and the number of tickets they need" />
     <MESSAGE value="* added statements for user to input information&#10;* added comments for what needs to be completed next" />
-    <option name="LAST_COMMIT_MESSAGE" value="* added statements for user to input information&#10;* added comments for what needs to be completed next" />
+    <MESSAGE value="* created variables for input data&#10;* created multiple methods if the ticket amount is at 1 or if it is greater than 1&#10;* created if-else statements based on ticket amount the user input" />
+    <option name="LAST_COMMIT_MESSAGE" value="* created variables for input data&#10;* created multiple methods if the ticket amount is at 1 or if it is greater than 1&#10;* created if-else statements based on ticket amount the user input" />
   </component>
 </project>
