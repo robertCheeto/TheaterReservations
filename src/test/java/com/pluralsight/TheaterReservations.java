@@ -12,41 +12,27 @@ public class TheaterReservations {
         String fullName[] = keyboard.nextLine().trim().split(" ");
 
         System.out.print("Please enter the date of the movie in the following format (MM/dd/yyyy): ");
-        String movieDate = keyboard.nextLine().trim();
-        LocalDate format = movieDate.ofPattern("MM/dd/yyyy");
-        //DateTimeFormatter format = DateTimeFormatter.ofPattern("MM/dd/yyyy");
-
-
+        String movieDate = keyboard.nextLine();
+        System.out.println(movieDate);
+        //LocalDate today = LocalDate.parse(movieDate);
+        //System.out.println(today.format(DateTimeFormatter.ISO_DATE));
 
 
         System.out.print("Please enter the amount of tickets you need: ");
         int ticketCount = keyboard.nextInt();
 
         if (ticketCount == 1) {
-            singleTicket();
+            System.out.printf("%d ticket reserved for %s under %s, %s.", ticketCount, movieDate, fullName[1], fullName[0]);
         } // end of if
 
         else if (ticketCount > 1) {
-            multipleTickets();
+            System.out.printf("%d tickets reserved for %s under %s, %s.", ticketCount, movieDate, fullName[1], fullName[0]);
         } // end of else-if
 
         else {
             System.out.println("No tickets were bought!");
         }
     } // end of main()
-
-    // display message format# ticket(s) reserved for (date) under (LastName, FirstName)
-
-    public static void singleTicket() {
-        //System.out.printf("%d ticket reserved for %s under %s, %s.", ticketCount, date, lastName, firstName);
-
-    } // end of singleTicket
-
-
-    public static void multipleTickets() {
-        System.out.println("Multiple tickets");
-
-    } // end of multipleTickets
 
     //TO-DO: add statements for user input on date, ticket number, display message to user
     // converting date to the standard version so program can print it out correctly

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad765a50-6f57-4479-bcee-ff9e368f4343" name="Changes" comment="* created variables for input data&#10;* created multiple methods if the ticket amount is at 1 or if it is greater than 1&#10;* created if-else statements based on ticket amount the user input">
+    <list default="true" id="ad765a50-6f57-4479-bcee-ff9e368f4343" name="Changes" comment="* changed the fullName variable to an array and edited variable declaration so first and last names are split into two separate indexes&#10;* working on adding LocalDate and formatting the user date so I can use that data in the program display message">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/pluralsight/TheaterReservations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pluralsight/TheaterReservations.java" afterDir="false" />
     </list>
@@ -101,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759237111831</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="* changed the fullName variable to an array and edited variable declaration so first and last names are split into two separate indexes&#10;* working on adding LocalDate and formatting the user date so I can use that data in the program display message">
+      <option name="closed" value="true" />
+      <created>1759241467220</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759241467220</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -109,6 +117,7 @@
     <MESSAGE value="* created sout statements asking the user for their name, the date they want to see the movie, and the number of tickets they need" />
     <MESSAGE value="* added statements for user to input information&#10;* added comments for what needs to be completed next" />
     <MESSAGE value="* created variables for input data&#10;* created multiple methods if the ticket amount is at 1 or if it is greater than 1&#10;* created if-else statements based on ticket amount the user input" />
-    <option name="LAST_COMMIT_MESSAGE" value="* created variables for input data&#10;* created multiple methods if the ticket amount is at 1 or if it is greater than 1&#10;* created if-else statements based on ticket amount the user input" />
+    <MESSAGE value="* changed the fullName variable to an array and edited variable declaration so first and last names are split into two separate indexes&#10;* working on adding LocalDate and formatting the user date so I can use that data in the program display message" />
+    <option name="LAST_COMMIT_MESSAGE" value="* changed the fullName variable to an array and edited variable declaration so first and last names are split into two separate indexes&#10;* working on adding LocalDate and formatting the user date so I can use that data in the program display message" />
   </component>
 </project>
