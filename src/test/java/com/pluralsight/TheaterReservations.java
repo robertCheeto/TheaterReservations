@@ -21,15 +21,15 @@ public class TheaterReservations {
 
 
         if (ticketCount == 1) {
-            System.out.printf("%d ticket reserved for %s under %s, %s.", ticketCount, movieDateOutput, fullName[1], fullName[0]);
+            System.out.printf("\n%d ticket reserved for %s under %s, %s.", ticketCount, movieDateOutput, fullName[1], fullName[0]);
         } // end of if
 
         else if (ticketCount > 1) {
-            System.out.printf("%d tickets reserved for %s under %s, %s.", ticketCount, movieDateOutput, fullName[1], fullName[0]);
+            System.out.printf("\n%d tickets reserved for %s under %s, %s.", ticketCount, movieDateOutput, fullName[1], fullName[0]);
         } // end of else-if
 
         else {
-            System.out.println("No tickets were bought!");
+            System.out.println("\nNo tickets were bought!");
         }
     } // end of main()
 }

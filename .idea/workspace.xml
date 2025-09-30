@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad765a50-6f57-4479-bcee-ff9e368f4343" name="Changes" comment="* removed previous method to reduce code amount/file size&#10;* formatted display messages&#10;* testing if-else statements for correct display message output&#10;* fiddling with LocalDate variable type">
+    <list default="true" id="ad765a50-6f57-4479-bcee-ff9e368f4343" name="Changes" comment="* ensured the DateTimeFormatter and LocalDate were packages imported&#10;* correctly formatted the date by going back and looking at the workbook">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/pluralsight/TheaterReservations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pluralsight/TheaterReservations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759242050746</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="* ensured the DateTimeFormatter and LocalDate were packages imported&#10;* correctly formatted the date by going back and looking at the workbook">
+      <option name="closed" value="true" />
+      <created>1759242663864</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1759242663864</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -126,6 +135,7 @@
     <MESSAGE value="* created variables for input data&#10;* created multiple methods if the ticket amount is at 1 or if it is greater than 1&#10;* created if-else statements based on ticket amount the user input" />
     <MESSAGE value="* changed the fullName variable to an array and edited variable declaration so first and last names are split into two separate indexes&#10;* working on adding LocalDate and formatting the user date so I can use that data in the program display message" />
     <MESSAGE value="* removed previous method to reduce code amount/file size&#10;* formatted display messages&#10;* testing if-else statements for correct display message output&#10;* fiddling with LocalDate variable type" />
-    <option name="LAST_COMMIT_MESSAGE" value="* removed previous method to reduce code amount/file size&#10;* formatted display messages&#10;* testing if-else statements for correct display message output&#10;* fiddling with LocalDate variable type" />
+    <MESSAGE value="* ensured the DateTimeFormatter and LocalDate were packages imported&#10;* correctly formatted the date by going back and looking at the workbook" />
+    <option name="LAST_COMMIT_MESSAGE" value="* ensured the DateTimeFormatter and LocalDate were packages imported&#10;* correctly formatted the date by going back and looking at the workbook" />
   </component>
 </project>
